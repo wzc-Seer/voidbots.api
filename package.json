@@ -1,0 +1,20 @@
+{
+  "name": "voidbots.api",
+  "version": "0.0.2",
+  "description": "A simple to use API wrapper for voidbots.net",
+  "main": "inc.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "discord",
+    "voidbots",
+    "bot list"
+  ],
+  "author": "Seer#6054",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}

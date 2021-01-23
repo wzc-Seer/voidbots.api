@@ -1,0 +1,22 @@
+{
+    "name": "voidbots.api",
+    "api": {
+        "url": "https://api.voidbots.net"
+    },
+    "strings": {
+        "computer": {
+            "ok": 200,
+            "danger": 199,
+            "warning": 199
+        },
+        "human": {
+            "ok": "success",
+            "danger": "danger",
+            "warning": "warning"
+        },
+        "copyright": {
+            "icon": "©",
+            "text": "wezacon.com"
+        }
+    }
+}
