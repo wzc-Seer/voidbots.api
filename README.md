@@ -6,8 +6,11 @@
 ### Get Votes
 Get the votes from a bot by a specific user:
 ```js
-const voidbots = require('voidbots.api');
-const api = new voidbots('authkey') // You can get this on https://voidbots.net
+const VoidBots = require('voidbots.api');
+// You can get this at https://voidbots.net/me, DO NOT SHARE IT WITH ANYONE
+const client = new VoidBots('auth key')
 
-console.log(api.getVotes(botId, userId)) // this will log the output
+// An example of getting a user vote status.
+api.getVotes(botId, userId)
+  .then(console.log)
 ```
