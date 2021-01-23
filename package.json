@@ -6,13 +6,14 @@
   "scripts": {
     "test": "npm test"
   },
+  "repository": "wzc-Seer/voidbots.api",
   "keywords": [
     "discord",
     "voidbots",
     "bot list"
   ],
   "author": "Seer#6054",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
     "node-fetch": "^2.6.1"
